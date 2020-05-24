@@ -1,0 +1,67 @@
+.GDmap {
+    width: 550px;
+    height: 100%;
+    position: absolute;
+    top: 200px;
+    left: 275px;
+    transform: translate3d(-50%, -50%, 0);
+    border: 1px solid #999;
+}
+.GDmap>ul{
+    position: absolute;
+    top: 0;
+    right: -251px;
+    width: 250px;
+    height: 400px;
+    overflow-x: hidden;
+    background-color: #ffffff;
+}
+.GDmap>ul>li{
+    cursor: pointer;
+    padding: 20px;
+}
+.GDmap>ul>li>p{
+    margin-top: 10px;
+}
+.GDmap>ul>li:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.text-class {
+    padding: 20px !important;
+}
+.search-box {
+    position: absolute;
+    z-index: 5;
+    width: 70%;
+    left: 13%;
+    top: 10px;
+    height: 30px;
+}
+
+.search-box input {
+    float: left;
+    width: 80%;
+    height: 100%;
+    border: 1px solid #30ccc1;
+    padding: 0 8px;
+    outline: none;
+}
+
+.search-box button {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background: #30ccc1;
+    border: 1px solid #30ccc1;
+    color: #fff;
+    outline: none;
+}
+
+.tip-box {
+    width: 100%;
+    max-height: 260px;
+    position: absolute;
+    top: 30px;
+    overflow-y: auto;
+    background-color: #fff;
+}

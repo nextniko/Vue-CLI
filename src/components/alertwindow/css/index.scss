@@ -1,0 +1,54 @@
+.njl_alertwindow{
+    position: fixed;
+    top: 15%;
+    left: 30%;
+    z-index:2003
+}
+.njl_header{
+    cursor: move;
+    padding: 0 20px 0 20px;
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    color: #333;
+    overflow: hidden;
+    background-color: #F8F8F8;
+    border-radius: 5px 5px 0 0;
+    -webkit-touch-callout: none; /* iOS Safari */
+
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+
+    -khtml-user-select: none; /* Konqueror */
+
+    -moz-user-select: none; /* Firefox */
+
+    -ms-user-select: none; /* Internet Explorer/Edge */
+
+    user-select: none; /* Non-prefixed version, currently
+
+    not supported by any browser */
+    }
+.njl_header>img{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+.njl_header>img:hover{
+    background: url(./img/closehover.png);
+}
+.njl_alerttransition-enter-active {
+    will-change: transform;
+    transition: all 500ms;
+}
+.njl_alerttransition-enter{
+    transform:scale3d(0,0,0);
+    opacity: 0;
+}
+.njl_alerttransition-enter-to{
+    transform:scale3d(1,1,1);
+    opacity: 1;
+}
