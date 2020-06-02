@@ -17,7 +17,7 @@ export default {
     }
   },
   mounted:function(){
-    this.api()
+    // this.api()
   },
   methods:{
     api:function(){
