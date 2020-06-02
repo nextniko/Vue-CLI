@@ -1,7 +1,7 @@
 import OSS from 'ali-oss'
-let region= 'oss-cn-shenzhen'
-let accessKeyId = "LTAI4GGuA322mwwbBnNSVhzy"
-let accessKeySecret= 'ivsABRr4IfYlm2ZZYNUlTyiAiqzU5b'
+// let region= 'oss-cn-shenzhen'
+// let accessKeyId = ""
+// let accessKeySecret= ''
 let _this = this
 function random_string(len){
     len = len || 32;
